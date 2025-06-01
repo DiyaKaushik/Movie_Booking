@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Movie Booking - Seat Selection</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header>Seat Selection</header>
+
+<div id="booking-info">
+  <h2 id="movie-title">Loading...</h2>
+  <div id="showtime-info"></div>
+  <div id="ticket-price"></div>
+
+  <div id="seats-container"></div>
+  <button id="confirm-btn" disabled>Confirm Booking</button>
+  <div id="confirmation"></div>
+</div>
+
+<div id="legend">
+  <div class="legend-item"><div class="legend-color legend-available"></div> Available</div>
+  <div class="legend-item"><div class="legend-color legend-selected"></div> Selected</div>
+  <div class="legend-item"><div class="legend-color legend-occupied"></div> Occupied</div>
+</div>
+
+<script src="seating.js"></script>
+</body>
+</html>
